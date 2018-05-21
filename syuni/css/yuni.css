@@ -1,0 +1,436 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+i{
+    font-style: normal;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    background: #DF263F;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-top: 2px solid #8A8586;
+    z-index: 9999999;
+}
+.top .left{
+    width: 486px;
+    height: 80px;
+    padding: 6px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.top .left img{
+    width: 158px;
+    height: 68px;
+}
+.top .right{
+    flex-grow: 1;
+    height: 80px;
+    background: #fff;
+    display: flex;
+}
+.top .right .box{
+    width: 108px;
+    height: 80px;
+    background: #fff;
+    line-height: 80px;
+    text-align: center;
+    color: #9a9a9a;
+}
+.banner{
+    width: 100%;
+    height: 422px;
+    margin-top: 80px;
+    position: relative;
+}
+.banner .lun .datu{
+    width: 100%;
+    height: 422px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.banner .lun .datu img{
+    width: 100%;
+    height: 422px;
+}
+.banner .lun .but{
+    width: 80px;
+    height: 12px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+}
+.banner .but .button{
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 50%;
+}
+.banner .but .hot{
+    background: red;
+}
+.banner .mtn{
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.banner .mtn .binl{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+}
+.banner .mtn .binr{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+}
+.banner .mtn .binl:hover{
+    background: #ACABAB;
+}
+.banner .mtn .binl .iconfont{
+    font-size: 24px;
+    color: rgba(255,255,255,0.3);
+}
+.banner .mtn .binl:hover .iconfont{
+    color: rgba(255,255,255,0.8);
+}
+.banner .mtn .binr:hover{
+    background: #ACABAB;
+}
+.banner .mtn .binr .iconfont{
+    font-size: 24px;
+    color: rgba(255,255,255,0.3);
+}
+.banner .mtn .binr:hover .iconfont{
+    color: rgba(255,255,255,0.8);
+}
+.banner img{
+    width: 100%;
+    height: 422px;
+}
+.banxia{
+    width: 100%;
+    height: 36px;
+    background: #333333;
+}
+.banxia .nav{
+    width: 1030px;
+    height: 100%;
+    background: #DF263F;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 36px;
+    color: white;
+}
+.banxia .nav a{
+    color: white;
+}
+.naver{
+    width: 100%;
+    height: 15410px;
+    padding: 20px 160px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.naver .left{
+    width: 242px;
+    height: 320px;
+}
+.naver .left .sa{
+    width: 100%;
+    height: 97px;
+    background: #DF263F;
+}
+.naver .left .sa .ti{
+    width: 100%;
+    height: 42px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    line-height: 42px;
+    color: white;
+}
+.naver .left .sa .xia{
+    width: 100%;
+    height: 54px;
+    display: block;
+    padding: 0 20px 0;
+    box-sizing: border-box;
+    line-height: 54px;
+    font-size: 12px;
+    color: white;
+}
+.naver .left .xa{
+    width: 100%;
+    height: 191px;
+    margin-top: 25px;
+    background: #DF263F;
+}
+.naver .left .xa .ti{
+    width: 100%;
+    height: 42px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    line-height: 42px;
+    color: white;
+}
+.naver .left .xa .xia{
+    width: 100%;
+    height: 148px;
+}
+.naver .left .xa .xia .box{
+    width: 100%;
+    height: 37px;
+    display: block;
+    font-size: 12px;
+    color: white;
+    padding: 0 20px 0;
+    box-sizing: border-box;
+    line-height: 37px;
+}
+.naver .right{
+    width: 772px;
+    height: 15090px;
+}
+.naver .right .mia{
+    width: 772px;
+    height: 314px;
+    display: flex;
+    justify-content: space-between;
+}
+.naver .right .mia .zuo{
+    width: 321px;
+    height: 100%;
+}
+.naver .right .mia .you{
+    width: 435px;
+    height: 100%;
+}
+.naver .right .mia .zuo .sha{
+    width: 321px;
+    height: 244px;
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.naver .right .mia .zuo .xia{
+    width: 321px;
+    height: 65px;
+    border: 1px solid #DDDDDD;
+    margin-top: 1px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.naver .right .mia .you .box{
+    width: 435px;
+    height: 36px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+}
+.naver .right .mia .you .ding{
+    font-size: 20px;
+    line-height: 36px;
+    color: #DF263F;
+    background: #F0F0F0;
+    padding-left: 24px;
+    box-sizing: border-box;
+}
+.naver .right .mia .you .two .td{
+    width: 340px;
+    height: 36px;
+    margin-left: 95px;
+    display: flex;
+    padding-top: 2px;
+    box-sizing: border-box;
+}
+.naver .right .mia .you .two .it{
+    width: 68px;
+    height: 32px;
+    background: #DF263F;
+    line-height: 32px;
+    margin-right: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+.naver .right .mia .you .box .tr{
+    width: 85px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    text-align: right;
+}
+.naver .right .mia .you .box .td{
+    width: 340px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+}
+.naver .right .clea{
+    width: 772px;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.naver .right .clea .zuo{
+    width: 300px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    line-height: 20px;
+}
+.naver .right .clea .you{
+    width: 340px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    line-height: 20px;
+}
+.naver .right .clea a{
+    display: block;
+    color: #DF263F;
+}
+.naver .right .fild{
+    width: 772px;
+    height: 14726px;
+    margin-top: 16px;
+}
+.naver .right .fild .hi{
+    width: 220px;
+    height: 32px;
+    background: #DF263F;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+}
+.naver .right .fild .her{
+    width: 772px;
+    height: 14670px;
+    background: #F0F0F0;
+    padding: 10px 21px 0;
+    box-sizing: border-box;
+}
+.naver .right .fild .her .box{
+    width: 730px;
+    height: 1096px;
+    background: #65A0D4;
+    margin-bottom: 2px;
+}
+.naver .right .fild .her .sml{
+    height: 486px;
+}
+.naver .right .fild .her .ssml{
+    height: 302px;
+}
+.naver .right .fir{
+    width: 772px;
+    height: 42px;
+    border-bottom: 2px solid #DF263F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.naver .right .fir .zuo{
+    width: 100px;
+    height: 30px;
+    font-size: 22px;
+    color: #DF263F;
+}
+.naver .right .fir .you{
+    width: 70px;
+    height: 24px;
+    color: white;
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    background: #DF263F;
+}
+.naver .right ul{
+    width: 772px;
+    height: 243px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.naver .right ul li{
+    width: 184px;
+    height: 184px;
+    border: 1px solid #cccccc;
+}
+.naver .right ul li .pic{
+    width: 184px;
+    height: 137px;
+}
+.naver .right ul li .hg{
+    width: 184px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 12px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #666666;
+}
+.met{
+    width: 100%;
+    height: 132px;
+    padding-left: 13px;
+    padding-top: 16px;
+    font-size: 12px;
+    color: #9a9a9a;
+    background: #333333;
+}
+.met p{
+    width: 70%;
+    float: left;
+    margin-bottom: 10px;
+}
+.met p a{
+    color: red;
+}
+.met .pc{
+    width: 30%;
+    height: 120px;
+    margin-top: -20px;
+    float: right;
+    font-size: 12px;
+    text-align: center;
+}
+.met .pc img{
+    margin: 0 auto;
+    display: block;
+}
